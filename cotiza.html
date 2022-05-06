@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización:</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="css/Estilos.css" rel="stylesheet" type="text/css">	
+    <script src="js/json.js"></script>
+    <script defer src="js/jsSimulador.js"></script> 
+
+</head>
+<body>
+    <div id="sectionCotizar" class="container">
+        <h1 class="bg-success text-light text-center">COTIZAR SERVICIO</h1> <br>
+        <H4 class="font-weight-light">Selecciona de la lista desplegable el servicio que requieres y la descripción del mismo. </H4>
+        <div class="row">
+            <div >
+                <form action="">
+                    <h5> SERVICIO: </label> </h5>
+                    <select  id="selectServicio">
+                        <option></option>
+                    </select>  <br> <br> 
+                    <p class="text-center "><button type="button" id="btnCotizar" class="btn btn-primary" value="Cotizar" text-align="center"> COTIZAR </button>  </p>
+        
+                    <h5> SERVICIO:  </h5> 
+                    <p id="txServicio" class="color1"></p>             
+        
+                    <h5> DESCRIPCIÓN: </h5> 
+                    <p id="txDescripcion" class="color1"></p>               
+        
+                    <h5> TIEMPO DE DESARROLLO ESTIMADO:</h5>
+                    <p id="txTiempo" class="color1"></p>               
+        
+                    <h5> PRECIO: </h5>
+                    <p id="txPrecio" class="color1"></p>            
+        
+                    <h5> IMPUESTO:</h5>
+                    <p id="txImpuesto" class="color1"></p>               
+        
+                    <h2>Valor Total:</h2>
+                    <h3 id="valorTotal" class="color1" >$ 0.00</h3> 
+                    <p class="text-center"> <button type="button" id="btnGuardarServicio" class="btn btn-primary txt-center" value="Refresh" size="10"> Guardar Pedido </button> 
+                    <a href="pedido.html"><button type="button" id="btnpedido" class="btn btn-primary text-center" size="10"> Hacer Pedido </button></a> </p> 
+                    
+                    <p class="text-align-right"> <button type="button" id="btnLimpiar" class="btn btn-success text-center" value="Refresh" size="10"> Refresh </button> </p>
+        
+                </form>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+</html>

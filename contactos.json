@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nombre": "Jose Luis",
+        "telefono":"844-205-61-04",
+        "email": "paty@correo.com"
+    },
+    {
+        "id": 2,
+        "nombre": "Arturo Guzmán",
+        "telefono":"844-277-43-63",
+        "email": "arturo@correo.com"
+    },
+    {
+        "id": 3,
+        "nombre": "Diego Alessandro",
+        "telefono":"844-367-7632",
+        "email": "diego@correo.com"
+    }
+
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "servicio": "IDENTIDAD1",
+    "descripcion": "Rediseño de Marca: Brief y Logotipo",
+    "precio": "$ 2000",
+    "tiempo": "3 días"
+  },
+  {
+    "id": 2,
+    "servicio": "IDENTIDAD2",
+    "descripcion": "Emblema, Logotipo, Paleta de colores, tipografías, Papeleria corporativa, Aplicaciones",
+    "precio": "$ 4000",
+    "tiempo": "4 días"
+  },
+  {
+    "id": 3,
+    "servicio": "IDENTIDAD3",
+    "descripcion": "Emblema, Logotipo, Paleta de colores, tipografías, Papeleria corporativa, Aplicaciones, manual de Identidad y archivos editables",
+    "precio": "$ 9000",
+    "tiempo": "7 días"
+  },
+  {
+    "id": 4,
+    "servicio": "DISEÑO PUBLICITARIO",
+    "descripcion": "Flyers, dipticos, tripticos, gifs, cartel, Infografía. Señaletica, etiquetas y envases, Souvenirs",
+    "precio": "Variable",
+    "tiempo": "3 días"
+  },
+  {
+    "id": 5,
+    "servicio": "EDITORIAL",
+    "descripcion": "Catálogo de servicios, Menú, Manuales, Curriculum Vitae",
+    "precio": "Variable",
+    "tiempo": "3 días"
+  },
+  {
+    "id": 6,
+    "servicio": "DISEÑO WEB",
+    "descripcion": "Diseño UX/IU, Programación, Publicación del Sitio Web",
+    "precio": "Variable",
+    "tiempo": "Variable"
+  },
+  {
+    "id": 7,
+    "servicio": "COMMUNITY MANAGMENT",
+    "descripcion": "Manejo de redes sociales del negocio con calendario de publicaciones mensual y gráficos de resultados",
+    "precio": "$ 3500",
+    "tiempo": "3 meses mínimo"
+  }
+]
